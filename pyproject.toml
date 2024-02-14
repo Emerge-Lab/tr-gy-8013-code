@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tr-gy-8013-code"
+version = "0.1.0"
+description = "Reproducible examples and homeworks for TR-GY-8013"
+authors = ["Eugene Vinitsky <vinitsky.eugene@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+matplotlib = "*"
+jupyter = "1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
